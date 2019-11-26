@@ -3,6 +3,6 @@
 !Makefile
 !suetest.h
 !suetest.c
-!atoi.c
-!bzero.c
+!libft-tests
+!libft-tests/*.c
 !.gitignore
