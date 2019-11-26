@@ -6,11 +6,11 @@
 #    By: swofferh <swofferh@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2019/10/28 17:28:55 by swofferh       #+#    #+#                 #
-#    Updated: 2019/11/26 20:39:39 by swofferh      ########   odam.nl          #
+#    Updated: 2019/11/26 21:11:48 by swofferh      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
-LIB = ../libft/libft.a
+LIB = ./libft/libft.a
 CFLAGS = -Wall -Wextra -Werror
 NAME = sue-test-framework-super-cool-libft
 
