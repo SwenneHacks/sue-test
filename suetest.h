@@ -6,7 +6,7 @@
 /*   By: swofferh <swofferh@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/11/26 19:46:51 by swofferh       #+#    #+#                */
-/*   Updated: 2019/11/26 21:43:22 by nschat        ########   odam.nl         */
+/*   Updated: 2019/11/29 19:56:34 by swofferh      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,10 +16,13 @@
 
 extern char	*g_func;
 extern int	g_test;
+extern char *g_type;
 
 void	test_atoi(void);
 void	test_bzero(void);
+void	test_memccpy(void);
+void	test_memchr(void);
 
-int		check_result(int result, const char *message);
+int		test_this(int result);
 
 #endif

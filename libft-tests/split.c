@@ -6,7 +6,7 @@
 /*   By: swofferh <swofferh@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/11/13 20:53:06 by swofferh       #+#    #+#                */
-/*   Updated: 2019/11/25 14:49:44 by swofferh      ########   odam.nl         */
+/*   Updated: 2019/11/29 18:22:08 by swofferh      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,7 @@ int main()
 {
 	char *str = "Check dit dan";
 	ft_split(str, ' ');	
-	while(1);
 }
-
 
 /*
 /*   Parameters

@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   bzero.c                                            :+:    :+:            */
+/*   test_bzero.c                                       :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: swofferh <swofferh@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/11/04 13:22:16 by swofferh       #+#    #+#                */
-/*   Updated: 2019/11/26 21:35:08 by nschat        ########   odam.nl         */
+/*   Updated: 2019/11/29 19:57:23 by swofferh      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,8 @@ void	test_bzero(void)
 	memset(b, 'S', len);
 	ft_bzero(a, len - 5);
 	bzero(b, len - 5);
-	check_result(memcmp(a, b, len), "basic test");
+	test_this(memcmp(a, b, len));
+	g_type = "basic test";
 
 	len = 11;
 	a = (char *)malloc(len);
@@ -38,5 +39,9 @@ void	test_bzero(void)
 	memset(b, 'S', len);
 	ft_bzero(a, 0);
 	bzero(b, (0));
-	check_result(memcmp(a, b, len), "0 as length");
+	test_this(memcmp(a, b, len));
+	g_type = "0 as length";
 }
+
+//writes zeroed bytes to string s for n times (size). Usefull for clean mallocs.
+void ft_bzero(void *s, size_t n);

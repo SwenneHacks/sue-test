@@ -1,9 +1,0 @@
-*
-!libft
-!Makefile
-!suetest.h
-!suetest.c
-!libft-tests
-!libft-tests/*.c
-!.gitignore
-!README.md

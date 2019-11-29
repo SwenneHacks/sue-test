@@ -6,15 +6,11 @@
 /*   By: swofferh <swofferh@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/11/13 20:55:08 by swofferh       #+#    #+#                */
-/*   Updated: 2019/11/23 22:17:13 by swofferh      ########   odam.nl         */
+/*   Updated: 2019/11/29 18:02:48 by swofferh      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-/*
-**    gcc itoa.c strlcpy.c strlen.c memcpy.c memset.c
-*/
 
 int		main(void)
 {
