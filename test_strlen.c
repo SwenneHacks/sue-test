@@ -1,23 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   strlen.c                                           :+:    :+:            */
+/*   test_strlen.c                                      :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: swofferh <swofferh@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/10/28 17:31:45 by swofferh       #+#    #+#                */
-/*   Updated: 2019/11/23 17:47:11 by swofferh      ########   odam.nl         */
+/*   Updated: 2019/11/29 21:33:18 by swofferh      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include "suetest.h"
 
-int		main(void)
+void	test_strlen(void)
 {
-	char str;
-
-	str = "Swenne, you got this!!";
-	printf("ft_ result: %d \n", ft_strlen(str));
-	printf("original result: %lu \n", strlen(str));
-	return (0);
+	const char str[] = "Swenne, you got this!!";
+	g_func = "strlen";
+	
+	test_this(ft_strlen(str) != strlen(str));
+	g_type = "String: You got this!!";
 }
+
+//Checks length. Returns the amount of chars in a string.
+size_t 	ft_strlen(const char *str);

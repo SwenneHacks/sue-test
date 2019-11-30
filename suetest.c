@@ -6,7 +6,7 @@
 /*   By: swofferh <swofferh@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/11/26 20:16:26 by swofferh       #+#    #+#                */
-/*   Updated: 2019/11/29 20:31:07 by swofferh      ########   odam.nl         */
+/*   Updated: 2019/11/29 21:38:03 by swofferh      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 char	*g_func;
 char 	*g_type;
-int		g_test;
+int		g_test = 1;
 
 int		test_this(int result)
 {	
@@ -30,10 +30,11 @@ int		test_this(int result)
 
 int		main(void)
 {
-	g_test = 1;
 	test_atoi();
 	test_bzero();
 	test_memccpy();
 	test_memchr();
+	test_strlen();
+	test_strrchr();
 	return (0);
 }
