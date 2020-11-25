@@ -26,6 +26,7 @@ void	test_strlen(void);
 void	test_strrchr(void);
 void    test_calloc(void);
 void    test_strncmp(void);
+int     test_lists(void);
 
 int		test_this(int result);
 

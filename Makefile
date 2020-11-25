@@ -16,7 +16,7 @@ NAME 	= sue-test-framework-super-cool-libft
 DIR 	= objects_file
 
 TESTS = test.c test_atoi.c test_bzero.c test_memccpy.c test_memchr.c test_strlen.c \
-		test_strrchr.c test_calloc.c test_strncmp.c \
+		test_strrchr.c test_calloc.c test_strncmp.c test_lists.c\
 		#itoa.c memcmp.c memcpy.c memmove.c memset.c putchar_fd.c putendl_fd.c  \
 		putstr_fd.c split.c strdup.c strlcat.c strlcpy.c strchr.c strtrim.c putnbr_fd.c \
 
