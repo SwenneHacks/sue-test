@@ -38,5 +38,6 @@ int		main(void)
 	test_strrchr();
 	test_calloc();
 	test_strncmp();
+    test_lists();
 	return (0);
 }
