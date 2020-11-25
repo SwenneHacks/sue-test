@@ -12,7 +12,8 @@
 
 #ifndef SUETEST_H
 # define SUETEST_H
-# include "libft.h"
+# include "./libft/libft.h"
+# include <string.h>
 
 extern char	*g_func;
 extern int	g_test;
